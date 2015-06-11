@@ -1,0 +1,1 @@
+Bestand om directory te kunnen opslaan in GIT
