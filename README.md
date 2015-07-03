@@ -3,7 +3,11 @@ DevLab-TS-NL
 
 DevLab TS NL - Java ontwikkel Lab
 
-Inmiddels is dit geen Grails repository meer, maar gaan we een AngularJS/Java/Spring applicatie bouwen
+Inmiddels is dit geen Grails repository meer, maar gaan we een AngularJS/Java/Spring applicatie bouwen.
+Ik (albertmon) heb daarvoor een branch gemaakt: angular
+
+Voor meer info zie de Readme in die branch
+
 
 Voordat je gaat inchecken: zorg ervoor dat je naam klopt in .gitconfig:
 
