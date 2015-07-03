@@ -7,9 +7,11 @@ Inmiddels is dit geen Grails repository meer, maar gaan we een AngularJS/Java/Sp
 
 Voordat je gaat inchecken: zorg ervoor dat je naam klopt in .gitconfig:
 
-...$ git config --global user.name "je eigen naam"
-...$ git config --global user.email je.eigen@email.adres
+  ...$ git config --global user.name "je eigen naam"
+  
+  ...$ git config --global user.email je.eigen@email.adres
 
 als je een melding krijgt over branch-matching:
-...$ git config --global push.default matching
+
+  ...$ git config --global push.default matching
 
