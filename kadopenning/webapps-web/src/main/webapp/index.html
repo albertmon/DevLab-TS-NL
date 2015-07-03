@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<script
+	src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+<body>
+	<div ng-app="webappApp" ng-controller="MainCtrl">
+
+		versie 20:
+		<p>My first expression: {{ 5 + 5 }}, first={{firstName}}</p>
+		<!-- Add your site or application content here -->
+		<div class="container" ng-view="" id="ng-view">
+			<div class="hero-unit">
+				<h3>Enjoy coding! - list en filter</h3>
+				<p>You now have</p>
+				<ul>
+					<li ng-repeat="thing in awesomeThings">{{thing | uppercase }}</li>
+				</ul>
+				<p>installed.</p>
+			</div>
+			<h3>Example rest call met sortering</h3>
+			<table>
+				<tr ng-repeat="x in names | orderBy : 'Country'">
+					<td>{{ x.Name }}</td>
+					<td>{{ x.Country }}</td>
+				</tr>
+			</table>
+
+		</div>
+	</div>
+
+</body>
+<script src="app/scripts/app.js"></script>
+<script src="app/scripts/controllers/main.js"></script>
+</html>
