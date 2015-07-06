@@ -3,6 +3,8 @@ DevLab-TS-NL
 
 DevLab TS NL - Java ontwikkel Lab
 
+!!! Gebruik de Wiki: https://github.com/marcokortooms/DevLab-TS-NL/wiki !!!
+
 Inmiddels is dit geen Grails repository meer, maar gaan we een AngularJS/Java/Spring applicatie bouwen.
 Ik (albertmon) heb daarvoor een branch gemaakt: angular
 
