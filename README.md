@@ -3,6 +3,7 @@ DevLab-TS-NL
 
 DevLab TS NL - Java ontwikkel Lab
 
-Inmiddels is dit geen Grails repository meer, maar gaan we een AngularJS/Java/Spring applicatie bouwen
-
 Dit is de branch voor Angular.
+
+Het is een applicatie in opbouw, er staat nog wat ongebruikte troep (zal ik binnenkort opruimen)
+en ook wat hints om verder te gaan.
