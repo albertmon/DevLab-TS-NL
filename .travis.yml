@@ -1,0 +1,5 @@
+language: java
+
+mvn install -DskipTests=true
+
+mvn test
