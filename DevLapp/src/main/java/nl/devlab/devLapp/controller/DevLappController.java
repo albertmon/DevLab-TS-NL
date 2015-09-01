@@ -12,6 +12,8 @@ import nl.devlab.devLapp.service.NameService;
 import nl.devlab.entity.Country;
 import nl.devlab.service.CountryService;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.validation.BindingResult;
@@ -32,7 +34,7 @@ import org.springframework.web.bind.support.SessionStatus;
 public class DevLappController extends HttpServlet {
 	
 	private static final long serialVersionUID = 1L;
-//	private Logger LOGGER = LoggerFactory.getLogger(DevLappController.class);
+	private Logger LOGGER = LoggerFactory.getLogger(DevLappController.class);
 
 	private static final String NAMEFORM = "nameForm";
 
